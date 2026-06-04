@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Великие Люди | Главная</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="/" class="logo">
+        <span class="logo-icon">★</span>
+        Великие Люди
+      </a>
+      <button class="mobile-menu-btn" aria-label="Меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="/" class="active">Главная</a></li>
+        <li><a href="/scientists.html">Учёные</a></li>
+        <li><a href="/programmers.html">Программисты</a></li>
+        <li><a href="/artists.html">Художники</a></li>
+        <li><a href="/writers.html">Писатели</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Великие Люди</h1>
+        <p class="hero-subtitle">История человечества через призму выдающихся личностей</p>
+        <p class="hero-description">
+          Откройте для себя истории гениев, которые изменили мир своими открытиями, 
+          изобретениями и творчеством. От древних философов до современных новаторов.
+        </p>
+        <a href="#categories" class="btn btn-primary">Исследовать</a>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-circle"></div>
+        <div class="hero-quotes">
+          <blockquote class="floating-quote quote-1">
+            "Воображение важнее знания"
+            <cite>— Альберт Эйнштейн</cite>
+          </blockquote>
+          <blockquote class="floating-quote quote-2">
+            "Код — это поэзия"
+            <cite>— Линус Торвальдс</cite>
+          </blockquote>
+          <blockquote class="floating-quote quote-3">
+            "Искусство — это ложь, которая помогает понять правду"
+            <cite>— Пабло Пикассо</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="categories" class="categories">
+      <h2 class="section-title">Категории</h2>
+      <p class="section-subtitle">Выберите область, которая вас интересует</p>
+      
+      <div class="categories-grid">
+        <a href="/scientists.html" class="category-card category-scientists">
+          <div class="category-icon">🔬</div>
+          <h3>Учёные</h3>
+          <p>Первооткрыватели законов природы и создатели технологий будущего</p>
+          <span class="category-count">12 персон</span>
+        </a>
+
+        <a href="/programmers.html" class="category-card category-programmers">
+          <div class="category-icon">💻</div>
+          <h3>Программисты</h3>
+          <p>Архитекторы цифрового мира и пионеры информационной эры</p>
+          <span class="category-count">10 персон</span>
+        </a>
+
+        <a href="/artists.html" class="category-card category-artists">
+          <div class="category-icon">🎨</div>
+          <h3>Художники</h3>
+          <p>Мастера кисти, создавшие бессмертные шедевры искусства</p>
+          <span class="category-count">10 персон</span>
+        </a>
+
+        <a href="/writers.html" class="category-card category-writers">
+          <div class="category-icon">✍️</div>
+          <h3>Писатели</h3>
+          <p>Творцы слова, изменившие наше понимание мира и человека</p>
+          <span class="category-count">10 персон</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="featured">
+      <h2 class="section-title">Цитата дня</h2>
+      <div class="quote-of-day">
+        <blockquote id="daily-quote">
+          <p>"Гениальность — это один процент вдохновения и девяносто девять процентов труда"</p>
+          <cite>— Томас Эдисон</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-number" data-target="42">0</span>
+          <span class="stat-label">Великих людей</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="4">0</span>
+          <span class="stat-label">Категории</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="500">0</span>
+          <span class="stat-label">Лет истории</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="1000">0</span>
+          <span class="stat-label">Достижений</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <span class="logo-icon">★</span>
+        <span>Великие Люди</span>
+      </div>
+      <p>Образовательный проект о выдающихся личностях в истории человечества</p>
+      <p class="footer-copyright">© 2024 Все права защищены</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/js/script.js"></script>
+</body>
+</html>
